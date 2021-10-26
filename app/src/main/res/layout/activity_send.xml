@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="18dp"
+        android:orientation="vertical">
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="46dp"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/ImageButton_send_before"
+            android:layout_width="9.5dp"
+            android:layout_height="16dp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="20dp"
+            android:background="@drawable/before_btn">
+
+        </ImageButton>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="20dp"
+            android:letterSpacing="-0.03"
+            android:textColor="#ffffff"
+            android:textSize="16sp"
+            tools:layout_editor_absoluteX="37dp"
+            tools:layout_editor_absoluteY="16dp"
+            android:text="     송금하기" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:orientation="vertical"></LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:orientation="horizontal">
+
+
+        <TextView
+            android:layout_width="99dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:textColor="#ffffff"
+            android:textSize="15sp"
+            android:text="송금 금액" />
+
+        <EditText
+            android:id="@+id/EditText_send_sendnum"
+            android:layout_width="245dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="금액을 입력하세요"
+            android:textColor="#ffffff"
+            android:textSize="15sp"
+            tools:layout_editor_absoluteX="109dp"
+            tools:layout_editor_absoluteY="85dp" />
+
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textColor="#ffffff"
+        android:textSize="12sp"
+        tools:layout_editor_absoluteX="109dp"
+        tools:layout_editor_absoluteY="111dp"
+        android:text="옮긴 후 잔고 : 48,250원" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="342dp"
+        android:orientation="vertical"></LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageButton
+            android:id="@+id/imageButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/confirm" />
+    </LinearLayout>
+
+</LinearLayout>

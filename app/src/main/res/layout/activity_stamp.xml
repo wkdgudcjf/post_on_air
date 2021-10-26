@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:background="@drawable/bar"
+        android:layout_height="70dp">
+            <ImageButton
+                android:layout_marginLeft="20dp"
+                android:layout_gravity="center_vertical"
+                android:layout_width="9.5dp"
+                android:background="@drawable/before_btn"
+                android:id="@+id/ImageButton_stamp_before"
+                android:layout_height="16dp">
+
+            </ImageButton>
+             <TextView
+                 android:layout_marginLeft="20dp"
+                 android:layout_gravity="center_vertical"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:textColor="#ffffff"
+                android:letterSpacing="-0.03"
+                android:text="마이 스탬프"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:weightSum="6"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="4"
+            android:gravity="center"
+            android:orientation="vertical"
+            >
+            <LinearLayout
+                android:background="@drawable/stamp_frame"
+                android:layout_width="265dp"
+                android:gravity="center"
+                android:layout_height="323dp">
+                <ImageView
+                    android:layout_width="230dp"
+                    android:id="@+id/ImageView_stamp"
+                    android:background="@drawable/stamp_cardlist_6"
+                    android:layout_height="290dp">
+                </ImageView>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:gravity="center"
+                android:layout_height="30dp">
+                <ImageButton
+                    android:layout_width="19dp"
+                    android:background="@drawable/stamp_point"
+                    android:layout_height="17dp">
+                </ImageButton>
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="0dp"
+            android:gravity="center"
+            android:weightSum="4"
+            android:layout_weight="2">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="3">
+                <HorizontalScrollView
+                    android:id="@+id/HorizontalScrollView_stamp_list"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent">
+                    <LinearLayout
+                        android:id="@+id/ll_layout"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:orientation="horizontal">
+
+                        <ImageButton
+                            android:layout_width="97dp"
+                            android:layout_marginRight="20dp"
+                            android:id="@+id/stamp_cardlist_rounded_1"
+                            android:background="@drawable/stamp_cardlist_rounded_1"
+                            android:layout_height="127dp">
+                        </ImageButton>
+
+                        <ImageButton
+                            android:layout_width="97dp"
+                            android:layout_marginRight="20dp"
+                            android:id="@+id/stamp_cardlist_rounded_2"
+                            android:background="@drawable/stamp_cardlist_rounded_2"
+                            android:layout_height="127dp">
+                        </ImageButton>
+
+                        <ImageButton
+                            android:layout_width="97dp"
+                            android:layout_marginRight="20dp"
+                            android:id="@+id/stamp_cardlist_rounded_3"
+                            android:background="@drawable/stamp_cardlist_rounded_3"
+                            android:layout_height="127dp">
+                        </ImageButton>
+
+                        <ImageButton
+                            android:layout_width="97dp"
+                            android:layout_marginRight="20dp"
+                            android:id="@+id/stamp_cardlist_rounded_4"
+                            android:background="@drawable/stamp_cardlist_rounded_4"
+                            android:layout_height="127dp">
+                        </ImageButton>
+
+                        <ImageButton
+                            android:layout_width="97dp"
+                            android:layout_marginRight="20dp"
+                            android:id="@+id/stamp_cardlist_rounded_5"
+                            android:background="@drawable/stamp_cardlist_rounded_5"
+                            android:layout_height="127dp">
+                        </ImageButton>
+
+                        <ImageButton
+                            android:layout_width="97dp"
+                            android:layout_marginRight="20dp"
+                            android:id="@+id/stamp_cardlist_rounded_6"
+                            android:background="@drawable/stamp_cardlist_rounded_6"
+                            android:layout_height="127dp">
+                        </ImageButton>
+                        <!-- ImageView, Button 등을 가로로 배치 -->
+                    </LinearLayout>
+                </HorizontalScrollView>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:weightSum="2"
+                android:layout_weight="1">
+                <ImageButton
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/main_button_trading"
+                    android:layout_height="match_parent">
+
+                </ImageButton>
+                <ImageButton
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/main_button_mall"
+                    android:layout_height="match_parent">
+
+                </ImageButton>
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:background="@drawable/bar"
+        android:layout_height="70dp">
+            <ImageButton
+                android:layout_marginLeft="20dp"
+                android:layout_gravity="center_vertical"
+                android:layout_width="9.5dp"
+                android:background="@drawable/before_btn"
+                android:id="@+id/ImageButton_coupon_before"
+                android:layout_height="16dp">
+
+            </ImageButton>
+             <TextView
+                 android:layout_marginLeft="20dp"
+                 android:layout_gravity="center_vertical"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:textColor="#ffffff"
+                android:letterSpacing="-0.03"
+                android:text="온에어 쿠폰 북"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:background="@drawable/coupon_map"
+        android:layout_height="match_parent">
+
+    </LinearLayout>
+
+</LinearLayout>

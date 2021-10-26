@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:background="@drawable/bar"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/ImageButton_account_before"
+            android:layout_width="9.5dp"
+            android:layout_height="16dp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="20dp"
+            android:background="@drawable/before_btn">
+
+        </ImageButton>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="20dp"
+            android:letterSpacing="-0.03"
+            android:text="계좌연결"
+            android:textColor="#ffffff"
+            android:textSize="16sp" />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:background="#f7f7f7"
+        android:weightSum="10"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:gravity="center"
+            android:layout_weight="3">
+            <ImageButton
+                android:layout_width="318dp"
+                android:background="@drawable/card"
+                android:id="@+id/ImageButton_account_card"
+                android:layout_height="138dp">
+
+            </ImageButton>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:gravity="center"
+            android:layout_weight="7">
+            <ImageButton
+                android:layout_width="330dp"
+                android:background="@drawable/account_banks"
+                android:layout_height="387dp">
+
+            </ImageButton>
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

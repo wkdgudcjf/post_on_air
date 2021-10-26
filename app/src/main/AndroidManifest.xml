@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.postonair.www.postonair">
+
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+
+    <application
+        android:allowBackup="true"
+        android:label="@string/app_name"
+        android:icon="@drawable/myicon"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Activity.MainActivity">
+        </activity>
+        <activity android:name=".Activity.CouponActivity">
+        </activity>
+        <activity android:name=".Activity.AccountActivity">
+        </activity>
+        <activity android:name=".Activity.StampActivity">
+        </activity>
+        <activity android:name=".Activity.WithdrawActivity">
+        </activity>
+        <activity android:name=".Activity.SendActivity">
+        </activity>
+        <activity android:name=".Activity.FilupActivity">
+        </activity>
+        <activity android:name=".Activity.SplashActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
